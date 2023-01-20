@@ -1,0 +1,25 @@
+.header {
+    background-color: $header-color;
+    margin: 0 auto;
+
+    &__bloc-left {
+        float: left;
+        width: $header-left;
+        padding: 0 auto;
+        overflow: hidden;
+          
+        &__logo {
+            float: left;
+            width: 40px;
+            // margin-right: 30px;
+            display: block;
+            }
+        }
+
+        &__bloc-right {
+            float: left;
+            width: calc(100%-$header-left);
+            overflow: hidden;
+            padding: 0 auto;
+    }
+}

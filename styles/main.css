@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+h1 {
+  font-size: 36px;
+  color: #005FA3;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1115px;
+}
+
+.header {
+  background-color: #E5E5E5;
+  padding: 72px 0;
+}
+.header__bloc {
+  float: left;
+}
+.header__bloc__left {
+  width: 435px;
+  padding: 0 auto;
+}
+.header__bloc__left__logo {
+  float: left;
+  width: 40px;
+  margin-right: 30px;
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
